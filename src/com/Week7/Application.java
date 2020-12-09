@@ -75,7 +75,7 @@ public class Application {
 
     public static void main(String[] args) {
 
-        String rpnString = "10 20 + 30 40 + *";
+        String rpnString = "10 20 +";
         double result = parse(rpnString);
         System.out.println(result);
     }
